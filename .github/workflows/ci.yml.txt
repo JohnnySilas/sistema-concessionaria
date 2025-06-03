@@ -1,0 +1,26 @@
+name: CI - Concessionária
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validar-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o código do repositório
+        uses: actions/checkout@v3
+
+      - name: Instalar o Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar o HTMLHint
+        run: npm install -g htmlhint
+
+      - name: Verificar erros no HTML
+        run: htmlhint ./index.html
