@@ -14,3 +14,13 @@ https://johnnysilas.github.io/sistema-concessionaria/
 #Branches
 - `main`: versão estável e publicada
 - `dev`: ambiente de testes e desenvolvimento
+
+- Alunos
+  
+Johnny Silas Vieira de Souza  
+Felipe Gabriel da Silva Rodrigues  
+Felipe Gabriel da Silva Monteiro  
+Frederico Luis Tomaz Cordeiro
+Paulo Ricardo  
+Marcos Vinicius  
+Renan Gabriel
