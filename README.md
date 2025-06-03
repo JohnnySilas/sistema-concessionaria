@@ -1,23 +1,16 @@
-- TDE 02 - Parte II
-Este projeto é parte da TDE da disciplina de Engenharia de Software, e consiste em:
-- Criar um site simples em HTML/CSS/JS sobre um sistema de concessionária.
-- Configurar uma esteira de integração contínua (CI) com GitHub Actions.
-- (Opcional) Publicar o site com GitHub Pages.
+#Sistema Concessionária – TDE 02 Parte II
+Este repositório é parte da TDE 02 (Parte II) da disciplina de Engenharia de Software.
 
--Projeto
-O projeto simula uma interface inicial de um sistema de concessionária.
+#Projeto
+Este é um sistema simples para uma concessionária, feito com HTML, CSS e JS, apenas para demonstração.
 
-Tecnologias
-- HTML
-- CSS
-- JavaScript
+Integração Contínua
+Usamos o GitHub Actions com um arquivo `.github/workflows/ci.yml` para verificar o HTML automaticamente a cada push ou pull request.
 
-- Alunos
-  
-Johnny Silas Vieira de Souza  
-Felipe Gabriel da Silva Rodrigues  
-Felipe Gabriel da Silva Monteiro  
-Frederico Luis Tomaz Cordeiro
-Paulo Ricardo  
-Marcos Vinicius  
-Renan Gabriel
+#Deploy
+O site está disponível via GitHub Pages:
+https://johnnysilas.github.io/sistema-concessionaria/
+
+#Branches
+- `main`: versão estável e publicada
+- `dev`: ambiente de testes e desenvolvimento
